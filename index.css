@@ -1,0 +1,47 @@
+.header_nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.header_list {
+  display: flex;
+  list-style: none;
+  font-size: 20px;
+  padding-right: 100px;
+}
+
+.header_item {
+  padding: 10px;
+}
+
+.header_link {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.header_icon {
+  margin-right: 200px;
+  text-decoration: none;
+  font-size: 24px;
+  color: black;
+}
+
+.header_nav_link {
+  text-decoration: none;
+  color: black;
+}
+
+.header_login {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  padding-right: 30px;
+  color: black;
+}
+
+.focus {
+  background-color: rgb(172, 172, 0);
+  color: black;
+}
