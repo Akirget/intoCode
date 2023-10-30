@@ -45,3 +45,28 @@
   background-color: rgb(172, 172, 0);
   color: black;
 }
+.footer {
+  background-color: rgb(181, 170, 199);
+}
+.footer_container{
+  display: flex;
+   justify-content: space-between;
+}
+.footer_list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+ 
+}
+
+.footer_item {
+  padding: 10px;
+}
+.footer_link {
+  text-decoration: none;
+}
+.footer_icon_whatsapp{
+  list-style: none;
+
+}
