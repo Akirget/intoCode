@@ -48,25 +48,24 @@
 .footer {
   background-color: rgb(181, 170, 199);
 }
-.footer_container{
+.footer_container {
   display: flex;
-   justify-content: space-between;
-}
-.footer_list {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  margin-top: 20px;
- 
+  justify-content: space-evenly;
 }
 
-.footer_item {
-  padding: 10px;
+.footer_contact {
+  text-decoration: none;
+  list-style: none;
 }
-.footer_link {
+
+.footer_contact_link {
   text-decoration: none;
 }
-.footer_icon_whatsapp{
-  list-style: none;
 
+.footer_contact_item {
+  padding: 5px;
+}
+
+.footer_about {
+  list-style: none;
 }
