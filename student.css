@@ -1,0 +1,19 @@
+.student_main{
+    background-color: antiquewhite;
+}
+.student_main_list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+}
+.student_name{
+    list-style: none;
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+}
+.student_img_item{
+    list-style: none;
+}
