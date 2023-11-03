@@ -1,3 +1,5 @@
+
+
 .header_nav {
   display: flex;
   align-items: center;
@@ -113,4 +115,36 @@
 
 .footer_about {
   list-style: none;
+}
+.images_placeholders{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+.main_recommended{
+  display: flex;
+  justify-content: left;
+  width: 300px;
+    
+
+}
+.main_image_item{
+  text-decoration: none;
+  list-style: none;
+}
+.left{
+  display: flex;
+  align-items: start;
+
+}
+.right{
+
+  display: flex;
+  align-items: start;
+
 }
