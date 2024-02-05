@@ -2,10 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./index.css" />
-    <link rel="stylesheet" href="./student.css" />
+    <link rel="stylesheet" href="./projects.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="header">
@@ -18,41 +22,27 @@
               width="100"
           /></a>
           <ul class="header_list">
-            <a href="/" class="header_nav_link">
-              <li class="header_item">Students</li></a
+            <a href="./student.html" class="header_nav_link"
+              ><li class="header_item">Students</li></a
             >
             <a href="./projects.html" class="header_nav_link"
               ><li class="header_item">Projects</li></a
             >
-            
             <a href="./blog.html" class="header_nav_link"
               ><li class="header_item">Blog</li></a
             >
-            <a href="" class="header_nav_link">
+            <a href="./curriculum.html" class="header_nav_link">
               <li class="header_item">Curriculum</li>
             </a>
-          </ul>
           
         </nav>
       </div>
     </header>
-    <main class="student_main">
-      <ul class="student_main_list">
-        <li class="student_item">
-          <a class="student_link" href="./Students/Oleksandr_Kirhet.html">
-            <img src="./Images/photo.png" alt="photo" />
-            <p class="student_name">Oleksander Kirhet</p>
-          </a>
-        </li>
-        <li class="student_item">
-          <a class="student_link" href="./Students/Praveen_Panthulu.html">
-            <img src="./Images/photo.png" alt="photo" />
-            <p class="student_name">Praveen</p>
-          </a>
-        </li>
-        
-      </ul>
+
+    <main class="main">
+     
     </main>
+
     <footer class="footer">
       <div class="footer_container">
         <ul class="footer_contact">
@@ -75,7 +65,9 @@
         </ul>
         <ul class="footer_about">
           <h4 class="footer_contact_title">About us</h4>
-          <li class="footer_contact_item">Teilnehmer intoCODE</li>
+          <a href="./student.html" class="footer_teilnehmer">
+            <li class="footer_contact_item">Teilnehmer intoCODE</li></a
+          >
           <li class="footer_contact_item">Thomas Schult</li>
           <li class="footer_contact_item">Mohammad Al Nasouh</li>
         </ul>
